@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@200&display=swap');
 
 * {
     margin: 0px;
@@ -30,10 +30,12 @@ a {
     cursor: default;
     text-decoration: none;
 }
-p{
+
+p {
     font-size: 15px;
     font-weight: ;
 }
+
 .logo {
     font-size: 28px;
     line-height: 27px;
@@ -81,12 +83,15 @@ div {
     height: 400px;
     width: 300px;
 }
-.services1>p{
-    margin:20px 0;
+
+.services1>p {
+    margin: 20px 0;
 }
-.services1>button{
+
+.services1>button {
     background-color: yellowgreen;
 }
+
 .card {
     overflow: hidden;
     margin-right: 10%;
@@ -94,7 +99,7 @@ div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap:30px;
+    gap: 30px;
     width: 50%;
     grid-template-areas: "card1 card2""card3 card4";
 }
@@ -151,7 +156,7 @@ div {
     padding: 22%;
 }
 
-.play{
+.play {
     background: none;
     outline: white;
 }
@@ -165,24 +170,119 @@ div {
 
 .portfolio {
     height: 1460px;
-    background-color: #fafaff;
+    background-color: #1313aa;
     clip-path: polygon(100% 0, 100% 75%, 0 100%, 0 25%);
 }
 
+
+
+.reviews-text {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.reviewcard {
+    width: 370px;
+    height: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reviewcard>img {
+    float: left;
+}
+
+.reviewcard>img,
+h4,
+p {
+    padding: 10px;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 5px;
+    width: 30px;
+    margin:5px;
+    background-color: whitesmoke;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: yellowgreen;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+
+
+
 .div1 {
     width: 100%;
-    padding:50px;
-    background-color:whitesmoke;
+    padding: 50px;
+    background-color: whitesmoke;
     overflow: hidden;
     text-align: center;
 }
-.div1>button{
+
+.div1>button {
     float: right;
     background-color: yellowgreen;
     margin-right: 5%;
     width: 150px;
 }
-.div1>p{
+
+.div1>p {
     font-size: 25px;
     margin: 10px;
     float: left;
@@ -194,34 +294,41 @@ div {
     color: white;
     margin: auto;
 }
-table{
+
+table {
     padding: 30px;
-    width:90%;
+    width: 90%;
     margin: auto;
 }
-thead{
+
+thead {
     text-align: left;
 }
-tbody{
+
+tbody {
     margin: 50px;
 }
 
-th,tr,td{
+th,
+tr,
+td {
     padding: 15px;
 }
-input{
+
+input {
     width: 300px;
     height: 50px;
     background-color: #ffffff;
 }
-ul{
+
+ul {
     margin: auto;
 }
-li{
+
+li {
     list-style: none;
     float: left;
     margin: 70px;
 }
-i{
-    
-}
+
+i {}
