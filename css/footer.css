@@ -1,0 +1,42 @@
+.footer {
+    height: 573px;
+    background-image: linear-gradient(90deg, #7a39db 0%, #6048ff 100%);
+    color: white;
+    margin: auto;
+}
+
+table {
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+thead {
+    text-align: left;
+}
+
+tbody {
+    margin: 50px;
+}
+
+th,
+tr,
+td {
+    padding: 15px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+}
+
+ul {
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin: 70px;
+}

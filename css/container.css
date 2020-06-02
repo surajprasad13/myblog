@@ -1,0 +1,242 @@
+/* service section*/
+.service-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: auto;
+}
+
+.service-intro {
+    text-align: justify;
+    padding: 30px;
+    justify-content: center;
+}
+
+.service-intro>button {
+    background-color: yellowgreen;
+}
+
+.service-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 30px;
+}
+
+.service-card>div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+/*End of service section*/
+
+.grid-container * {
+    border: 1px solid red;
+    position: relative;
+}
+
+.grid-container *:after {
+    content: attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.services {
+    clip-path: polygon(100% 0, 100% 75%, 0 100%, 0 0);
+}
+
+.story {
+    background-image: linear-gradient(90deg, #7a39db 0%, #6048ff 100%);
+    clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
+    text-align: center;
+    margin: auto;
+    padding: 22%;
+}
+
+.play {
+    background: none;
+    outline: white;
+}
+
+.skill-container {
+    border: 1px dashed blue;
+    height: 30vh;
+}
+
+.reviews-text {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.reviewcard {
+    width: 370px;
+    height: 222px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.reviewcard>img {
+    float: left;
+}
+
+.reviewcard>img,
+h4,
+p {
+    padding: 10px;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+}
+/* The dots/bullets/indicators */
+.dot {
+    height: 5px;
+    width: 30px;
+    margin: 5px;
+    background-color: whitesmoke;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: yellowgreen;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 10px
+    }
+}
+
+.div1 {
+    width: 100%;
+    padding: 50px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    text-align: center;
+}
+
+.div1>button {
+    float: right;
+    background-color: yellowgreen;
+    margin-right: 5%;
+    width: 150px;
+}
+
+.div1>p {
+    font-size: 25px;
+    margin: 10px;
+    float: left;
+}
+
+/*Portfolio section styling*/
+
+.portfolio-container {
+    background-color: whitesmoke;
+    text-align: center;
+    overflow: hidden;
+    padding: 10%;
+    clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 15%);
+
+}
+
+.portfolio>nav a {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio>nav a:hover {
+    color: yellowgreen;
+    border-bottom: 5px solid yellowgreen;
+}
+
+.grid-container {
+    margin: auto;
+    height: 500px;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas: "a c e""a d e""b d f";
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.e {
+    grid-area: e;
+}
+
+.f {
+    grid-area: f;
+}
+
+/* For presentation only, no need to copy the code below */
+.grid-container * {
+    border: 1px solid blue;
+    position: relative;
+}
+
+.grid-container *:after {
+    content: attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* End ofPortfolio section styling*/

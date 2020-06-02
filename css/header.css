@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Mono',
+        monospace;
+
+}
+body{
+
+}
+header {
+    width: 100%;
+    height: 610px;
+    background-image: linear-gradient(90deg, #7a39db 0%, #6048ff 100%);
+    clip-path: polygon(100% 0, 100% 75%, 0 100%, 0 0);
+}
+
+nav {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    margin: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: default;
+    text-decoration: none;
+}
+
+p {
+    font-size: 15px;
+}
+
+.logo {
+    font-size: 28px;
+    line-height: 27px;
+    color: #a0d334;
+}
+
+button {
+    background: none;
+    height: 55px;
+    width: 100px;
+    color: white;
+    border: 1px solid white;
+
+}
+
+section {
+    color: white;
+    text-align: center;
+    margin: 100px;
+}
+
+h2 {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.getstarted {
+    background-color: yellowgreen;
+    margin: 50px;
+}
